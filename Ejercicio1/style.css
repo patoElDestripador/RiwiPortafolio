@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.contenedor {
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    height: 800px;
+    width: 500px;
+}
+
+.imagen{
+    position: absolute;
+    left: 59.3%;
+    top: 13.9%;
+    }
+
+.conetenido {
+    position: absolute;
+        /*
+    background-color:red;
+    */
+
+    height: 685px;
+    width: 289px;
+    left: 0.9%;
+    top: 13.9%;
+}
+
+.resumen {
+    position: absolute;
+    background-color: red;
+    height: 381px;
+    width: 200px;
+    left: 59.3%;
+    top: 51.9%;
+}
+h1 {
+    font-size: 40px;
+    color: red;
+}
+h3 {
+    position: absolute;
+    top: 100px;
+    left: 1px;
+}
+
+h2{
+    color: red;
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+.RE {
+    color: aliceblue;
+}
+.pcolor {
+    color: aliceblue;
+    font-size: 10px;
+} 
