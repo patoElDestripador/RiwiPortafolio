@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <!--siun get element by id-->
+    <main>
+        <div class="lajoda">
+            <section class="Calculadora">
+                <div class="cuadrado"><h1 id="pantallitaId">0</h1></div>
+                <button class="btnCont" onclick="guardarValor('especial1')">(</button>
+                <button class="btnCont" onclick="guardarValor('especial2')">)</button>
+                <button class="btnCont color1" onclick="prueba = prueba.slice(0,-1);mostrar(prueba)">Del</button>
+                <button class="btnCont color1" onclick='prueba = "";document.getElementById("pantallitaId").innerHTML = 0'>AC</button>
+                <button class="btnCont" onclick="guardarValor(7)">7</button>
+                <button class="btnCont" onclick="guardarValor(8)">8</button>
+                <button class="btnCont" onclick="guardarValor(9)">9</button>
+                <button class="btnCont" onclick="guardarValor('/')">÷</button>
+                <button class="btnCont" onclick="guardarValor(4)">4</button>
+                <button class="btnCont" onclick="guardarValor(5)">5</button>
+                <button class="btnCont" onclick="guardarValor(6)">6</button>
+                <button class="btnCont" onclick="guardarValor('*')">x</button>
+                <button class="btnCont" onclick="guardarValor(1)">1</button>
+                <button class="btnCont" onclick="guardarValor(2)">2</button>
+                <button class="btnCont" onclick="guardarValor(3)">3</button>
+                <button class="btnCont" onclick="guardarValor('-')">-</button>
+                <button class="btnCont" onclick="guardarValor(0)">0</button>
+                <button class="btnCont" onclick="guardarValor('.')">.</button>
+                <button class="btnCont" onclick="guardarValor('+')">+</button>
+                <button class="btnCont color1" onclick="resultado()">=</button>
+            </section>
+        </div>
+    </main>
+    <script>
+        var prueba = ""
+        function guardarValor(params) {
+            if(params === "especial1"){
+            prueba+=`(`;
+            }else if(params === 'especial2'){
+            prueba+=`)`;
+            }else{
+            prueba+=params
+        }
+        mostrar(prueba)
+        }
+        function resultado() {
+            mostrar(eval(prueba))
+        }
+        function mostrar(params) {
+            let EsteNoCuenta = document.getElementById("pantallitaId").innerHTML = params
+        }
+    </script>
+</body>
+</html>
