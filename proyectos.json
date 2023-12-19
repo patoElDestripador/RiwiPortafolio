@@ -2,23 +2,23 @@ var proyectos = [
     {
         "nombre":"Inicio de sesion",
         "descripcion":"",
-        "fechaSubida":"",
-        "imagen":"",
-        "direccion":"",
+        "fechaSubida":"Oct 23, 2023",
+        "imagen":"https://imgdb.net/storage/uploads/c0f4940ef6a32fe6b80a68a21c3f70bb68e2c43bc60a232fa119cd94fd67a394.png",
+        "direccion":"https://patoeldestripador.github.io/riwiLogin/",
     },    
     {
         "nombre":"Hoja de vida",
         "descripcion":"",
-        "fechaSubida":"",
-        "imagen":"",
-        "direccion":"",
+        "fechaSubida":"Oct 30, 2023",
+        "imagen":"https://imgdb.net/storage/uploads/b27076f9d2f59557c553125cc2352c167479940eb52663390642ed6186c4666f.png",
+        "direccion":"https://patoeldestripador.github.io/HojaDeVida/",
     },
     {
         "nombre":"Perfil instagram",
         "descripcion":"",
-        "fechaSubida":"",
+        "fechaSubida":"Nov 15, 2023",
         "imagen":"",
-        "direccion":"",
+        "direccion":"https://patoeldestripador.github.io/FeedPerfilIG/",
     },
     {
         "nombre":"Pagina otra",
@@ -37,9 +37,9 @@ var proyectos = [
     {
         "nombre":"Calculadora 2",
         "descripcion":"",
-        "fechaSubida":"",
-        "imagen":"",
-        "direccion":"",
+        "fechaSubida":"Nov 15, 2023",
+        "imagen":"https://imgdb.net/storage/uploads/5802323a6fcb4333d9b12f248069980c851bf2878b1940073fa39e903c98979f.png",
+        "direccion":"https://patoeldestripador.github.io/Calculadora2/",
     },
     {
         "nombre":"Formulario",
@@ -60,7 +60,7 @@ var proyectos = [
         "descripcion":"",
         "fechaSubida":"Nov 7, 2023",
         "imagen":"",
-        "direccion":"",
+        "direccion":"https://patoeldestripador.github.io/Sahana/",
     },
     {
         "nombre":"Macondo",

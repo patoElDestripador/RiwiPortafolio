@@ -1,6 +1,5 @@
 
 let contenedorProyectos = document.getElementById("contenedorProyectos")
-
 for (let index = 0; index < proyectos.length; index++) {
     
     contenedorProyectos.innerHTML += `
@@ -14,7 +13,7 @@ for (let index = 0; index < proyectos.length; index++) {
                         <div class="btn-group">
                             <a type="button" class="btn btn-sm btn-outline-secondary" href="${proyectos[index].direccion}">Ver</a>
                         </div>
-                        <small class="text-body-secondary">${proyectos[index].fecha}</small>
+                        <small class="text-body-secondary">${proyectos[index].fechaSubida}</small>
                     </div>
                 </div>
             </div>
