@@ -11,7 +11,7 @@ for (let index = 0; index < proyectos.length; index++) {
                     <p class="card-text">${proyectos[index].nombre}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                            <a type="button" class="btn btn-sm btn-outline-secondary" href="${proyectos[index].direccion}">Ver</a>
+                            <a type="button" class="btn btn-sm btn-outline-secondary" href="${proyectos[index].direccion}" target="_blank">Ver</a>
                         </div>
                         <small class="text-body-secondary">${proyectos[index].fechaSubida}</small>
                     </div>
