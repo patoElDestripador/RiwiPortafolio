@@ -18,8 +18,8 @@ var proyectos = [
         "nombre":"Perfil instagram",
         "descripcion":"",
         "fechaSubida":"Nov 1, 2023",
-        "imagen":"https://imgdb.net/storage/uploads/55182ebf857d38854b9fb2165a7a810e6e9b03f95362805765f85945e9bcc485.png",
-        "direccion":"https://patoeldestripador.github.io/CuentaRegresivaParaTiemposDesesperados/",
+        "imagen":"https://imgdb.net/storage/uploads/677464af3a5cf19048d2865410bd3c53087f58b8dbca254be8ff034964debbbd.png",
+        "direccion":"https://patoeldestripador.github.io/FeedPerfilIG/",
     },
     {
         "nombre":"Sahana",
